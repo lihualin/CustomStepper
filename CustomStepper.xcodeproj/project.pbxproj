@@ -15,6 +15,12 @@
 		607B22701AC116B5005457F4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607B226F1AC116B5005457F4 /* Images.xcassets */; };
 		607B22731AC116B5005457F4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607B22711AC116B5005457F4 /* LaunchScreen.xib */; };
 		607B227F1AC116B6005457F4 /* CustomStepperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 607B227E1AC116B6005457F4 /* CustomStepperTests.m */; };
+		607B228C1AC118F5005457F4 /* add_p@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 607B22881AC118F5005457F4 /* add_p@2x.png */; };
+		607B228D1AC118F5005457F4 /* add@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 607B22891AC118F5005457F4 /* add@2x.png */; };
+		607B228E1AC118F5005457F4 /* jian_p@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 607B228A1AC118F5005457F4 /* jian_p@2x.png */; };
+		607B228F1AC118F5005457F4 /* jian@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 607B228B1AC118F5005457F4 /* jian@2x.png */; };
+		607B22921AC128BC005457F4 /* CustomStepperView.m in Sources */ = {isa = PBXBuildFile; fileRef = 607B22911AC128BC005457F4 /* CustomStepperView.m */; };
+		607B22941AC128D7005457F4 /* CustomStepperView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607B22931AC128D7005457F4 /* CustomStepperView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +48,13 @@
 		607B22781AC116B6005457F4 /* CustomStepperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomStepperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607B227D1AC116B6005457F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607B227E1AC116B6005457F4 /* CustomStepperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomStepperTests.m; sourceTree = "<group>"; };
+		607B22881AC118F5005457F4 /* add_p@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add_p@2x.png"; sourceTree = "<group>"; };
+		607B22891AC118F5005457F4 /* add@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add@2x.png"; sourceTree = "<group>"; };
+		607B228A1AC118F5005457F4 /* jian_p@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jian_p@2x.png"; sourceTree = "<group>"; };
+		607B228B1AC118F5005457F4 /* jian@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jian@2x.png"; sourceTree = "<group>"; };
+		607B22901AC128BC005457F4 /* CustomStepperView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomStepperView.h; sourceTree = "<group>"; };
+		607B22911AC128BC005457F4 /* CustomStepperView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomStepperView.m; sourceTree = "<group>"; };
+		607B22931AC128D7005457F4 /* CustomStepperView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomStepperView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +96,10 @@
 		607B225E1AC116B5005457F4 /* CustomStepper */ = {
 			isa = PBXGroup;
 			children = (
+				607B22881AC118F5005457F4 /* add_p@2x.png */,
+				607B22891AC118F5005457F4 /* add@2x.png */,
+				607B228A1AC118F5005457F4 /* jian_p@2x.png */,
+				607B228B1AC118F5005457F4 /* jian@2x.png */,
 				607B22631AC116B5005457F4 /* AppDelegate.h */,
 				607B22641AC116B5005457F4 /* AppDelegate.m */,
 				607B22691AC116B5005457F4 /* ViewController.h */,
@@ -92,6 +109,9 @@
 				607B22711AC116B5005457F4 /* LaunchScreen.xib */,
 				607B22661AC116B5005457F4 /* CustomStepper.xcdatamodeld */,
 				607B225F1AC116B5005457F4 /* Supporting Files */,
+				607B22901AC128BC005457F4 /* CustomStepperView.h */,
+				607B22911AC128BC005457F4 /* CustomStepperView.m */,
+				607B22931AC128D7005457F4 /* CustomStepperView.xib */,
 			);
 			path = CustomStepper;
 			sourceTree = "<group>";
@@ -203,8 +223,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				607B226E1AC116B5005457F4 /* Main.storyboard in Resources */,
+				607B228E1AC118F5005457F4 /* jian_p@2x.png in Resources */,
+				607B228F1AC118F5005457F4 /* jian@2x.png in Resources */,
+				607B228D1AC118F5005457F4 /* add@2x.png in Resources */,
+				607B228C1AC118F5005457F4 /* add_p@2x.png in Resources */,
 				607B22731AC116B5005457F4 /* LaunchScreen.xib in Resources */,
 				607B22701AC116B5005457F4 /* Images.xcassets in Resources */,
+				607B22941AC128D7005457F4 /* CustomStepperView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607B22681AC116B5005457F4 /* CustomStepper.xcdatamodeld in Sources */,
+				607B22921AC128BC005457F4 /* CustomStepperView.m in Sources */,
 				607B22651AC116B5005457F4 /* AppDelegate.m in Sources */,
 				607B226B1AC116B5005457F4 /* ViewController.m in Sources */,
 				607B22621AC116B5005457F4 /* main.m in Sources */,
@@ -348,6 +374,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CustomStepper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -358,6 +385,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CustomStepper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
